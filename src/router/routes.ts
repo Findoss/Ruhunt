@@ -1,7 +1,7 @@
 import { MainPage } from 'pages/main';
 import { MapPage } from 'pages/map';
 import { TurPage } from 'pages/rivals';
-// import { SpecialPage } from 'pages/special';
+import { SpecialPage } from 'pages/special';
 
 export const routes = [
   {
@@ -39,5 +39,5 @@ export const routes = [
 ];
 
 export const specialRoutes = [
-  // { id: 0, isExact:true, link: '/xxx', component: SpecialPage, text: 'xxx', className: '' },
+  { id: 100, isExact:true, link: '/test', component: SpecialPage, text: 'test', className: '' },
 ];
