@@ -1,6 +1,8 @@
 import { MainPage } from 'pages/main';
 import { MapPage } from 'pages/map';
 import { TurPage } from 'pages/rivals';
+import { RivalsLeaderboardPage } from 'pages/rivals-leaderbord';
+import { RivalsStreamPage } from 'pages/rivals-steam';
 // import { SpecialPage } from 'pages/special';
 
 export const routes = [
@@ -40,4 +42,20 @@ export const routes = [
 
 export const specialRoutes = [
   // { id: 0, isExact:true, link: '/xxx', component: SpecialPage, text: 'xxx', className: '' },
+  {
+    id: 90,
+    isExact: false,
+    link: '/rivals/leaderboard',
+    component: RivalsLeaderboardPage,
+    text: 'xxx',
+    className: '',
+  },
+  {
+    id: 91,
+    isExact: false,
+    link: '/rivals/stream',
+    component: RivalsStreamPage,
+    text: 'xxx',
+    className: '',
+  },
 ];

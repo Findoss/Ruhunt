@@ -6,7 +6,7 @@ import { routes, specialRoutes } from 'router/routes';
 import './App.css';
 
 function App() {
-  const allRoutes = [...routes, ...specialRoutes];
+  const allRoutes = [...specialRoutes, ...routes];
 
   return (
     <div className="app">
