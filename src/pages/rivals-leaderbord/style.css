@@ -31,7 +31,7 @@
 }
 
 .leadrboard-row:nth-child(-n + 6) td:first-child {
-  color: var(--color-5);
+  color: var(--color-1);
 }
 
 .leadrboard-row {
