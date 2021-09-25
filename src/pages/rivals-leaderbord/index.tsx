@@ -32,6 +32,8 @@ export const RivalsLeaderboardPage = () => {
   return (
     <div className="rivals-content">
       <h1>Таблица лидеров</h1>
+      <h2>Rivals 3 (25 Сентября)</h2>
+      <br />
       <table className="leadrboard">
         <thead className="leadrboard-head">
           <tr>

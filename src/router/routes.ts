@@ -56,7 +56,7 @@ export const specialRoutes = [
     id: 91,
     isExact: false,
     link: '/rivals/leaderboard',
-    component: Hide,
+    component: RivalsLeaderboardPage,
     text: '',
     className: '',
   },
