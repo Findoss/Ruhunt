@@ -27,6 +27,11 @@
   margin-top: 10px;
 }
 
+.leadrboard-col {
+  padding-top: 10px;
+  border-bottom: 1px solid var(--bg-color-2);
+}
+
 .leadrboard-col_name {
 }
 
@@ -34,7 +39,7 @@
   text-align: center;
 }
 
-.leadrboard-col {
-  padding-top: 10px;
-  border-bottom: 1px solid var(--bg-color-2);
+.leadrboard-col_players {
+  font-size: 0.9rem;
+  color: var(--color-4);
 }
