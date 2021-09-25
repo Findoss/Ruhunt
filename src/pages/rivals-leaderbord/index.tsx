@@ -35,9 +35,9 @@ export const RivalsLeaderboardPage = () => {
       <table className="leadrboard">
         <thead className="leadrboard-head">
           <tr>
-            <th className="leadrboard-head_name">Название</th>
+            <th className="leadrboard-head_name">Название команды</th>
             <th>Игр</th>
-            <th>Баллов</th>
+            <th>Очки</th>
           </tr>
         </thead>
         <tbody className="leadrboard-body">
