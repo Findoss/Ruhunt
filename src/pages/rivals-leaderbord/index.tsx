@@ -35,6 +35,7 @@ export const RivalsLeaderboardPage = () => {
       <table className="leadrboard">
         <thead className="leadrboard-head">
           <tr>
+            <th className="leadrboard-head_num">#</th>
             <th className="leadrboard-head_name">Название команды</th>
             <th>Игр</th>
             <th>Очки</th>
@@ -47,8 +48,8 @@ export const RivalsLeaderboardPage = () => {
             </tr>
           ) : null}
 
-          {table?.map((v) => (
-            <Row key={v[0]} data={v}></Row>
+          {table?.map((v, i) => (
+            <Row key={v[0]} data={v} index={i}></Row>
           ))}
         </tbody>
       </table>

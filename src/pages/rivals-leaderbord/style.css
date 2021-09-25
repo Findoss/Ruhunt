@@ -21,6 +21,11 @@
   text-align: left;
 }
 
+.leadrboard-head_num {
+  text-align: left;
+  color: var(--color-4);
+}
+
 .leadrboard-body:first-child {
   color: var(--color-5);
 }
@@ -35,6 +40,10 @@
 }
 
 .leadrboard-col_name {
+}
+
+.leadrboard-col_num {
+  color: var(--color-4);
 }
 
 .leadrboard-col_point {

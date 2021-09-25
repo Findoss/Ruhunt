@@ -2,11 +2,13 @@ import './style.css';
 
 type Props = {
   data: string[];
+  index: number;
 };
 
-export const Row = ({ data }: Props) => {
+export const Row = ({ data, index }: Props) => {
   return (
     <tr className="leadrboard-row">
+      <td className="leadrboard-col leadrboard-col_num">{index}</td>
       <td className="leadrboard-col leadrboard-col_name">
         <a href={data[5]} target="_blank" rel="noopener noreferrer">
           {data[1]}
