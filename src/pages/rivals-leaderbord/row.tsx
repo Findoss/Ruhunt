@@ -16,6 +16,10 @@ export const Row = ({ data, index }: Props) => {
           <span className="leadrboard-col_players">{data[4]}</span>
         </a>
       </td>
+      <td
+        dangerouslySetInnerHTML={{ __html: data[6] }}
+        className="leadrboard-col leadrboard-col_ban"
+      ></td>
       <td className="leadrboard-col leadrboard-col_point">{data[3]}</td>
       <td className="leadrboard-col leadrboard-col_point">
         {Math.round(Number(data[2]))}

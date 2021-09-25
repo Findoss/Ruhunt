@@ -37,6 +37,7 @@ export const RivalsLeaderboardPage = () => {
           <tr>
             <th className="leadrboard-head_num">#</th>
             <th className="leadrboard-head_name">Название команды</th>
+            <th className="leadrboard-head_name">Баны</th>
             <th>Игр</th>
             <th>Очки</th>
           </tr>
