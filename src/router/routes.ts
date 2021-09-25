@@ -5,7 +5,7 @@ import { RivalsLeaderboardPage } from 'pages/rivals-leaderbord';
 import { RivalsStreamPage } from 'pages/rivals-steam';
 // import { SpecialPage } from 'pages/special';
 
-import { Hide } from './hide';
+// import { Hide } from './hide';
 
 export const routes = [
   {
