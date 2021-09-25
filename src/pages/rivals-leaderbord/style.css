@@ -1,0 +1,40 @@
+.rivals-content {
+}
+
+.rivals-content h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.leadrboard {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 1px solid var(--color-4);
+}
+
+.leadrboard-head_name {
+  text-align: left;
+}
+
+.leadrboard-body:first-child {
+  color: var(--color-5);
+}
+
+.leadrboard-row {
+  margin-top: 10px;
+}
+
+.leadrboard-col_name {
+}
+
+.leadrboard-col_point {
+  text-align: center;
+}
+
+.leadrboard-col {
+  padding-top: 10px;
+  border-bottom: 1px solid var(--bg-color-2);
+}

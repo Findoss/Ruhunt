@@ -1,0 +1,15 @@
+.rivals-content {}
+
+.ruhunt-link-form-rivals {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 2rem;
+  border: 1px solid var(--color-2);
+  text-decoration: none;
+}
+
+.ruhunt-link-form-rivals:hover {
+  background-color: var(--color-2);
+}
