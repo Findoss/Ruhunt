@@ -15,16 +15,31 @@ const streams = [
   'https://www.twitch.tv/revoltkam',
 ];
 
+const streamsa = [
+  'blr_serega',
+  'AmateurPanda',
+  'justwhypanda',
+  'andribetr',
+  'qvoqa',
+  'shaco7_7',
+  'ruko_va',
+  'sirex_tv_',
+  'beilfox',
+  'e1yze',
+  'kir1ru',
+  'revoltkam',
+];
+
 export const RivalsStreamPage = () => {
   return (
     <div className="streams">
       <br />
       <br />
-      {streams.map((url) => (
+      {streams.map((url, i) => (
         <iframe
           key={url}
           title={url}
-          src={url}
+          src={`https://player.twitch.tv/?channel=${streamsa[i]}&parent=${window.location.hostname}`}
           frameBorder="0"
           allowFullScreen={true}
           scrolling="no"

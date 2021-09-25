@@ -1,4 +1,6 @@
 .rivals-content {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .rivals-content h1 {

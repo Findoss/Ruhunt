@@ -1,4 +1,7 @@
-.rivals-content {}
+.rivals-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
 
 .ruhunt-link-form-rivals {
   display: block;
