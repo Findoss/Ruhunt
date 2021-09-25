@@ -30,7 +30,7 @@
   color: var(--color-5);
 }
 
-.leadrboard-row:nth-child(-n + 6) td:first-child {
+.leadrboard-row:nth-child(-n + 5) td:first-child {
   color: var(--color-1);
 }
 
