@@ -45,6 +45,10 @@ a {
   color: var(--color-1);
 }
 
+a:hover {
+  color: var(--color-2-hover);
+}
+
 .disable-links {
   pointer-events: none;
   color: var(--color-4);
