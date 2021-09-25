@@ -1,6 +1,4 @@
 export const csvToArray = (csvString: string) => {
-  console.log(csvString);
-
   const arr = csvString.split('\n').map((v, i) => {
     if (v.match('"')) {
       const re = new RegExp('".+(,).+"', 'gi');
@@ -12,7 +10,5 @@ export const csvToArray = (csvString: string) => {
       ...v.replaceAll('\\r', '').replaceAll('"', '').trim().split(','),
     ];
   });
-  console.log(arr);
-
   return arr;
 };

@@ -39,7 +39,8 @@
   border-bottom: 1px solid var(--bg-color-2);
 }
 
-.leadrboard-col_name {
+.leadrboard-col_name a {
+  text-decoration: none;
 }
 
 .leadrboard-col_num {
@@ -53,4 +54,11 @@
 .leadrboard-col_players {
   font-size: 0.9rem;
   color: var(--color-4);
+}
+
+.leadrboard-col_name .leadrboard-col_team {
+  text-decoration: underline;
+}
+
+.leadrboard-col_name .leadrboard-col_players {
 }
