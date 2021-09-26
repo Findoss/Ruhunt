@@ -1,6 +1,7 @@
-import { HashRouter as Router, Switch, Route, NavLink } from 'react-router-dom';
-import cn from 'classnames';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
+import { Menu } from 'components/menu';
+import { Footer } from 'components/footer';
 import { routes, specialRoutes } from 'router/routes';
 
 import './App.css';
@@ -11,19 +12,7 @@ function App() {
   return (
     <div className="app">
       <header className="app_header">
-        <Router>
-          <ul className="app_menu menu">
-            {routes
-              .sort((a, b) => a.id - b.id)
-              .map(({ id, isExact, link, className, text }) => (
-                <li key={id} className={cn('menu_item', className)}>
-                  <NavLink exact={isExact} to={link}>
-                    {text}
-                  </NavLink>
-                </li>
-              ))}
-          </ul>
-        </Router>
+        <Menu />
       </header>
       <div className="app_content">
         <Router>
@@ -40,7 +29,7 @@ function App() {
         </Router>
       </div>
       <div className="app_footer">
-        © {new Date(Date.now()).getFullYear()} RUHUNT{' '}
+        <Footer />
       </div>
     </div>
   );

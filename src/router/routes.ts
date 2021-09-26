@@ -5,7 +5,7 @@ import { RivalsLeaderboardPage } from 'pages/rivals-leaderbord';
 import { RivalsStreamPage } from 'pages/rivals-steam';
 // import { SpecialPage } from 'pages/special';
 
-// import { Hide } from './hide';
+import { Hide } from './hide';
 
 export const routes = [
   {
@@ -47,8 +47,8 @@ export const specialRoutes = [
   {
     id: 90,
     isExact: false,
-    link: '/rivals/3/leaderboard',
-    component: RivalsLeaderboardPage,
+    link: '/rivals/archive',
+    component: Hide,
     text: '',
     className: '',
   },

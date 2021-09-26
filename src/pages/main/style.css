@@ -2,27 +2,18 @@
   padding-top: 5%;
   padding-left: 5%;
   padding-right: 5%;
+  width: 100%;
 }
 
 .ruhunt-text {
-  font-weight: bold;
-  padding-left: 5%;
-  padding-right: 5%;
-  font-size: 3rem;
+  margin: 0 auto;
   text-align: center;
-  display: block;
   text-transform: uppercase;
-  max-width: 100%;
-  overflow: hidden;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 .ruhunt-link {
   color: var(--color-1);
   text-decoration: none;
-}
-
-.ruhunt-link:hover,
-.ruhunt-link:hover .ruhunt-logo .st1 {
-  color: var(--color-2-hover);
-  fill: var(--color-2-hover);
 }
