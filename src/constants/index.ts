@@ -1,4 +1,4 @@
-export const RUHUNT_DISCORD = 'https://discord.gg/eDEQ5RFp4F';
+export const RUHUNT_DISCORD = 'https://discord.gg/BruC8QM';
 
 export const RUHUNT_FORM_RIVALS_REG = '';
 
